@@ -16,8 +16,4 @@ let getInfo = async(direccion) => {
 
 getInfo(argv.direccion)
     .then(m => console.log(m))
-    .catch(err => console.log(err))
-
-
-
-console.log(argv);
+    .catch(err => console.log(err));
